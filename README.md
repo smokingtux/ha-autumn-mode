@@ -1,5 +1,10 @@
 # Autumn mode for Home Assistant 🎃🍂
 
+[![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?logo=homeassistantcommunitystore&logoColor=white)](https://hacs.xyz/docs/faq/custom_repositories/)
+[![Latest release](https://img.shields.io/github/v/tag/smokingtux/ha-autumn-mode?label=release&logo=github)](https://github.com/smokingtux/ha-autumn-mode/tags)
+[![Last commit](https://img.shields.io/github/last-commit/smokingtux/ha-autumn-mode)](https://github.com/smokingtux/ha-autumn-mode/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/smokingtux/ha-autumn-mode?style=social)](https://github.com/smokingtux/ha-autumn-mode/stargazers)
+
 Falling autumn leaves (maple and regular leaves) and pumpkins across the entire Home Assistant frontend.
 Modeled after the official Labs winter mode (`ha-snowflakes.ts`).
 
