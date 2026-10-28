@@ -5,7 +5,24 @@ Modeled after the official Labs winter mode (`ha-snowflakes.ts`).
 
 ![Autumn mode preview](images/preview.png)
 
-## Installation
+## Installation via HACS
+
+1. HACS → ⋮ → **Custom repositories**, add `https://github.com/smokingtux/ha-autumn-mode` with type **Dashboard**.
+2. Search for **Autumn Mode** in HACS and download it. HACS adds it as a dashboard resource
+   (`/hacsfiles/ha-autumn-mode/ha-autumn-mode.js`) automatically.
+3. Create the toggle helper (step 2 of the manual installation below).
+4. Hard-reload the browser (Ctrl+F5), or clear the frontend cache in the Companion app.
+
+A dashboard resource only starts once a dashboard has been loaded. To have it running on every page right away
+(settings, history, ...), additionally add it to `configuration.yaml` and restart Home Assistant:
+
+```yaml
+frontend:
+  extra_module_url:
+    - /hacsfiles/ha-autumn-mode/ha-autumn-mode.js
+```
+
+## Manual installation
 
 1. Copy `ha-autumn-mode.js` to `/config/www/ha-autumn-mode.js` (e.g. via the File Editor or Samba add-on).
 2. Create a helper: **Settings → Devices & services → Helpers → Create helper → Toggle**,
