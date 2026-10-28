@@ -51,15 +51,6 @@ On phones there are 14px of extra hit area (`TOUCH_SLOP`).
 
 Clear the browser cache after changing the file.
 
-## Upgrading from `herbst-modus.js`
-
-If you used the earlier German version of this script:
-
-- Replace `/local/herbst-modus.js` with `/local/ha-autumn-mode.js` in `extra_module_url` (or your dashboard resource) and delete the old file.
-- The toggle entity changed from `input_boolean.herbst_modus` to `input_boolean.autumn_mode`.
-  Either change the helper's entity ID in its settings, or set `AUTUMN_ENTITY` back to the old ID.
-  Without a matching helper, autumn mode is always on.
-
 ## License
 
 GPL-3.0, see [LICENSE](LICENSE).
